@@ -4,7 +4,7 @@
 </h1>
 
 <p align="center">
-  A fork of <b><a href="https://github.com/posquit0/Awesome-CV">Awesome CV</a></b>, the outstanding LaTeX template for your job application.
+  A fork of <a href="https://github.com/posquit0/Awesome-CV">Awesome CV</a>, the LaTeX template for your outstanding job application.
 </p>
 
 <div align="center">
@@ -53,28 +53,30 @@ In either case, this should result in the creation of ``{your-cv}.pdf``
 
 [**posquit0**](https://github.com/posquit0), for creating the original project, [**Awesome CV**](https://github.com/posquit0/Awesome-CV).
 
-[**OJFord**](https://github.com/OJFord), for helping posquit0 maintain [**Awesome CV**](https://github.com/posquit0/Awesome-CV).
+[**OJFord**](https://github.com/OJFord), for helping posquit0 maintain Awesome CV.
+
+[**San Francisco**](https://developer.apple.com/fonts/), the default font family for Apple products, made available for non-Mac users by [**thelioncape**](https://github.com/thelioncape) on their repo: [**San-Francisco-family**](https://github.com/thelioncape/San-Francisco-family). 
 
 [**LaTeX**](https://www.latex-project.org), the typesetting system that made this resume possible. 
 
-[**LaTeX FontAwesome**](https://github.com/furl/latex-fontawesome) is bindings for FontAwesome icons to be used in XeLaTeX.
 
-[**Roboto**](https://github.com/google/roboto) is the default font on Android and ChromeOS, and the recommended font for Google’s visual language, Material Design.
+## Licensing
 
-[**Source Sans Pro**](https://github.com/adobe-fonts/source-sans-pro) is a set of OpenType fonts that have been designed to work well in user interface (UI) environments.
+This project is licensed under the GNU AGPLv3 for general use. You are free to take this project and modify it to create your own resume. 
 
+Even if you're not programming inclined, like I am, it only takes about 15 minutes to learn enough about LaTeX to be adapt this project to make your own resume.
 
-## Contact
-
-***Why have this license instead of a commonly used one (such as the MIT, GPL, or AGPL)?***
-
-If you have any questions, feel free to join me at [`#posquit0` on Freenode](irc://irc.freenode.net/posquit0) and ask away. Click [here](https://kiwiirc.com/client/irc.freenode.net/posquit0) to connect.
-
-Good luck!
-
+If you'd like to even do some bigger modifications, such as I did when making my own resume, it only takes around a day and a half (it took me a Friday night and most of a Saturday).
 
 Please don't use my resume for anything else without my permission, though!
 
 
+
+## Maintainers
+- [posquit0](https://github.com/posquit0)
+- [OJFord](https://github.com/OJFord)
+
+
 ## See Also
 
+* [Awesome Identity](https://github.com/posquit0/hugo-awesome-identity) - A single-page Hugo theme to introduce yourself.
