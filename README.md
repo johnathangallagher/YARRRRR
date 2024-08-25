@@ -4,7 +4,7 @@
 </h1>
 
 <p align="center">
-  LaTeX template for your outstanding job application
+  A fork of <a href="https://github.com/posquit0/Awesome-CV">Awesome CV</a>, the LaTeX template for your outstanding job application.
 </p>
 
 <div align="center">
