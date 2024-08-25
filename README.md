@@ -49,13 +49,18 @@ docker run --rm --user $(id -u):$(id -g) -i -w "/doc" -v "$PWD":/doc thomasweise
 In either case, this should result in the creation of ``{your-cv}.pdf``
 
 
-## Credit
+## Acknowledgements & Credit
 
-[**LaTeX**](https://www.latex-project.org) is a fantastic typesetting program that a lot of people use these days, especially the math and computer science people in academia.
+[**posquit0**](https://github.com/posquit0), for creating the original project, [**Awesome CV**](https://github.com/posquit0/Awesome-CV).
+
+[**OJFord**](https://github.com/OJFord), for helping posquit0 maintain [**Awesome CV**](https://github.com/posquit0/Awesome-CV).
+
+[**San Francisco**](https://developer.apple.com/fonts/), the default font family for Apple products, made available for non-Mac users by [**thelioncape**](https://github.com/thelioncape) on their repo: [**San-Francisco-family**](https://github.com/thelioncape/San-Francisco-family). 
+
+[**LaTeX**](https://www.latex-project.org), the typesetting system that made this resume possible. 
 
 [**LaTeX FontAwesome**](https://github.com/furl/latex-fontawesome) is bindings for FontAwesome icons to be used in XeLaTeX.
 
-[**Roboto**](https://github.com/google/roboto) is the default font on Android and ChromeOS, and the recommended font for Google’s visual language, Material Design.
 
 [**Source Sans Pro**](https://github.com/adobe-fonts/source-sans-pro) is a set of OpenType fonts that have been designed to work well in user interface (UI) environments.
 
