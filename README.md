@@ -80,7 +80,7 @@ I will not revoke these freedoms as long as you follow the license terms.
 <p1 style="margin-left: 24pt;"><b>Attribution</b> — You must give appropriate credit. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use</p1><br>
 <p1 style="margin-left: 24pt;"><b>Modify</b> — Any personal information included in the project as-is must be removed before redistribution of this project or any derivative works.</p1><br>
 
-*Do keep in mind that my license does not override the licenses of other projects and works used in this project. Most notable is the licensing for the San Francisco font.*
+*Do keep in mind that my license does not override the licenses of other projects and works used in this project.*
 
 ## Frequently Asked Questions
 
