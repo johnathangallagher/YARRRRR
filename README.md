@@ -1,7 +1,11 @@
-<h1 align="center">
-  <br />
-  Awesome CV
-</h1>
+<div align="center">
+  <project_name style="font-size: 36px;"><b>
+    YARRRRR!
+  </project_name></b>
+  <h2 align="center" style="margin-top: 0; font-size: 20px"><i>
+    Yet Another Repeatedly Replicated Resume Reference Repository!
+  </h2></i>
+</div>
 
 <p align="center">
   A fork of <b><a href="https://github.com/posquit0/Awesome-CV">Awesome CV</a></b>, the outstanding LaTeX template for your job application.
@@ -16,12 +20,21 @@
     <img alt="Example Resume" src="https://img.shields.io/badge/resume-pdf-007318.svg"/>
   </a>
 </div>
+<br>
 
-<br />
+## What is YARRRRR?
 
-## What is Awesome CV?
+**YARRRRR** is, yet another, one of an innumerable amount of LaTeX projects for a Resume forked from [Awesome CV](https://github.com/posquit0/Awesome-CV), which is itself a fork of [Fancy CV](https://www.sharelatex.com/templates/cv-or-resume/fancy-cv). However, Awesome CV is made for non-US based job markets, and as such has some things that are not ideal when submitting a resume to US-based jobs. 
 
-**Awesome CV** is LaTeX template for a **CV(Curriculum Vitae)**, **Résumé** or **Cover Letter** inspired by [Fancy CV](https://www.sharelatex.com/templates/cv-or-resume/fancy-cv). It is easy to customize your own template, especially since it is really written by a clean, semantic markup.
+It will (hopefully) be *somewhat* easy to customize a beautiful resume of your own from this project. While Awesome CV is heavily commented (which is extremely helpful), I found the internal structure difficult to navigate when I was flipping back-and-forth on design decisions. As such, this project refactors a fair amount of Awesome CV to ***hopefully*** be even more intuitive when navigating and editing.
+
+## Features
+
+* **Trusted Format**: Follows the layout (and advice) of the <a href="https://www.reddit.com/r/jobs/comments/7y8k6p/im_an_exrecruiter_for_some_of_the_top_companies/">reddit-famous resume template</a> by <a href="https://www.linkedin.com/in/colindmcintosh/">Colin McIntosh</a> (AKA <a href="https://www.reddit.com/user/SheetsGiggles/">/u/SheetsGiggles</a>).
+* **Unparsable Phone Number**: your phone number on the resume gets scrambled when people try to copy-and-paste it, making it more difficult for scammers and web scrapers from automatically getting your phone number. (ATS scanners will almost always never be able to parse your number as a trade-off however)
+* **Focused Design**: The CV and Cover Letter are removed, and focus is on the Resume (their files are still in the repo) to make the best first impression on a human: just a touch of color, a sleek font (Inter), and neurotic typesetting.
+* **ATS Friendly**: Beside your phone number, the entire resume will be easily parsed by most ATS systems, helping you fill out more applications faster.
+* **Region Hyperlink**: When you write your address as ```State``` or ```City, State```, a link for Google maps will be automatically added. (Awesome CV has hyper-linking for everything else in the 'socials' area, but did not have it for the address) 
 
 
 ## How to Use
@@ -49,15 +62,15 @@ If you're using a source-code editor, to get the changes to actually show up in 
 
 [**posquit0**](https://github.com/posquit0), for creating the original project, [**Awesome CV**](https://github.com/posquit0/Awesome-CV).
 
+[**Colin McIntosh**](https://www.linkedin.com/in/colindmcintosh/) (AKA <a href="https://www.reddit.com/user/SheetsGiggles/">/u/SheetsGiggles</a>), for creating the [resume template](https://sheetsresume.com/resume-template/) that has helped countless people in their professional life.
+
 [**OJFord**](https://github.com/OJFord), for helping posquit0 maintain [**Awesome CV**](https://github.com/posquit0/Awesome-CV).
 
 [**LaTeX**](https://www.latex-project.org), the typesetting system that made this resume possible. 
 
 [**LaTeX FontAwesome**](https://github.com/furl/latex-fontawesome) is bindings for FontAwesome icons to be used in XeLaTeX.
 
-[**Roboto**](https://github.com/google/roboto) is the default font on Android and ChromeOS, and the recommended font for Google’s visual language, Material Design.
-
-[**Source Sans Pro**](https://github.com/adobe-fonts/source-sans-pro) is a set of OpenType fonts that have been designed to work well in user interface (UI) environments.
+[**Inter**](https://fonts.google.com/specimen/Inter) is a font similar to Helvetica and Roboto, closely resembling Apple's San Francisco typeface (which replaced Helvetica in 2015).
 
 
 ## Licensing
@@ -73,8 +86,8 @@ I will not revoke these freedoms as long as you follow the license terms.
 
 **Under the following terms:**
 
-<p1 style="margin-left: 24pt;"><b>Attribution</b> — You must give appropriate credit. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use</p1><br>
-<p1 style="margin-left: 24pt;"><b>Modify</b> — Any personal information included in the project as-is must be removed before redistribution of this project or any derivative works.</p1><br>
+<p1 style="margin-left: 24pt;"><b>Attribution</b> — you must give appropriate credit (you may do so in any reasonable manner, but not in a way that suggests that I endorse you or your use)</p1><br>
+<p1 style="margin-left: 24pt;"><b>Modify</b> — any personal information included in the project as-is must be removed before redistribution of this project or any derivative works.</p1><br>
 
 *Do keep in mind that my license does not override the licenses of other projects and works used in this project.*
 
