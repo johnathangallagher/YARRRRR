@@ -1,0 +1,1 @@
+../example/awesome-cv.cls
