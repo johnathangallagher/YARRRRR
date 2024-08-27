@@ -96,7 +96,7 @@ Even if you're not programming inclined, like I am, it only takes about 15 minut
 
 If you'd like to even do some bigger modifications, such as I did when making my own resume (eventually deviating from Awesome CV a fair bit), it'll only take about a day or two (it took me a Friday night and a Saturday).
 
-***Why use LaTeX instead of word?***
+***Why use LaTeX instead of Microsoft Word?***
 
 Other people have written on the topic, and I think that they will offer far more nuance and expertise than I could. On <a href="https://jmtirado.net/why-you-should-learn-latex-or-at-least-give-it-a-try/">good use cases for LaTeX</a>, on <a href="https://www.lode.de/blog/comparing-word-and-latex">its strength for typography/typesetting</a> (in the middle of the article), and <a href="https://blog.orvium.io/latex-over-word/">its differences from word processors</a> (Microsoft Word, Google Docs, <i>etc</i>.)
 
