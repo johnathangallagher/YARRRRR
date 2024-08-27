@@ -1,1 +1,1 @@
-../example/awesome-cv.cls
+../examples/awesome-cv.cls
