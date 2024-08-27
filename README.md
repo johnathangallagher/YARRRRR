@@ -35,7 +35,7 @@ If all of this sounds intimidating, then you can try [Overleaf](https://www.over
 
 #### Usage
 
-Download the [latest release from the github](https://github.com/johnathangallagher/resume/releases), move the folder from your Downloads folder to a location of your choice, and open the project in the source-code editor of your choice. (or use Overleaf as mentioned above, however you'd have to figure out the upload process yourself)
+Download the [latest release from github](https://github.com/johnathangallagher/resume/releases), move the folder from your Downloads folder to a location of your choice, and open the project in the source-code editor of your choice. (or use Overleaf as mentioned above, however you'd have to figure out the upload process yourself)
 
 If you're using a source-code editor, to get the changes to actually show up in your .pdf file you will need to *compile* the project. In VS Code, this can be done three ways:
 
