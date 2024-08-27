@@ -12,7 +12,7 @@
     <img alt="GitHub Actions" src="https://github.com/johnathangallagher/resume/actions/workflows/main.yml/badge.svg"/>
   </a>
   <a href="https://github.com/johnathangallagher/resume/master/examples/resume.pdf">
-    <img alt="Example Resume" src="https://img.shields.io/badge/resume-pdf-green.svg"/>
+    <img alt="Example Resume" src="https://img.shields.io/badge/resume-pdf-007318.svg"/>
   </a>
 </div>
 
