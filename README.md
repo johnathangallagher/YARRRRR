@@ -1,13 +1,9 @@
-<div align="center">
-  <project_name style="font-size: 36px;"><b>
-    YARRRRR!
-  </project_name></b>
-  <h2 align="center" style="margin-top: 0; font-size: 20px"><i>
-    Yet Another Repeatedly Replicated Resume Reference Repository!
-  </h2></i>
-</div>
+<h1 align="center">
+  YARRRRR! 
+</h1>
 
 <p align="center">
+  <i>Yet Another Repeatedly Replicated Resume Reference Repository!</i><br>
   A fork of <b><a href="https://github.com/posquit0/Awesome-CV">Awesome CV</a></b>, the outstanding LaTeX template for your job application.
 </p>
 
@@ -15,7 +11,7 @@
   <a href="https://github.com/johnathangallagher/resume/actions/workflows/main.yml">
     <img alt="GitHub Actions" src="https://github.com/johnathangallagher/resume/actions/workflows/main.yml/badge.svg"/>
   </a>
-  <span style="margin: 0 5px 0 0;"> </span>
+  <span style="margin: 0 10px 0 0;"> </span>
   <a href="https://github.com/johnathangallagher/resume/master/examples/resume.pdf">
     <img alt="Example Resume" src="https://img.shields.io/badge/resume-pdf-007318.svg"/>
   </a>
@@ -27,6 +23,7 @@
 **YARRRRR** is, yet another, one of an innumerable amount of LaTeX projects for a Resume forked from [Awesome CV](https://github.com/posquit0/Awesome-CV), which is itself a fork of [Fancy CV](https://www.sharelatex.com/templates/cv-or-resume/fancy-cv). However, Awesome CV is made for non-US based job markets, and as such has some things that are not ideal when submitting a resume to US-based jobs. 
 
 It will (hopefully) be *somewhat* easy to customize a beautiful resume of your own from this project. While Awesome CV is heavily commented (which is extremely helpful), I found the internal structure difficult to navigate when I was flipping back-and-forth on design decisions. As such, this project refactors a fair amount of Awesome CV to ***hopefully*** be even more intuitive when navigating and editing.
+
 
 ## Features
 
@@ -53,9 +50,9 @@ Download the [latest release from github](https://github.com/johnathangallagher/
 
 If you're using a source-code editor, to get the changes to actually show up in your .pdf file you will need to *compile* the project. In VS Code, this can be done three ways:
 
-<p1 style="margin-left: 24pt;"><b>(1)</b> automatically you save the .tex file, <br>
-<p1 style="margin-left: 24pt;"><b>(2)</b> clicking the green play button in the top right corner of the editor panel, and <br>
-<p1 style="margin-left: 24pt;"><b>(3)</b> using the key bind ```Ctrl + Alt + B```.
+<b>(1)</b> automatically you save the .tex file, <br>
+<b>(2)</b> clicking the green play button in the top right corner of the editor panel, and <br>
+<b>(3)</b> using the key bind ```Ctrl + Alt + B```.
 
 
 ## Acknowledgements & Credit
@@ -77,17 +74,17 @@ If you're using a source-code editor, to get the changes to actually show up in 
 
 **You are free to:**
 
-<p1 style="margin-left: 24pt;"><b>Share</b> — copy and redistribute the project in any medium or format</p1><br>
-<p1 style="margin-left: 24pt;"><b>Adapt</b> — remix, transform, and build upon the project</p1><br>
-<p1 style="margin-left: 24pt;"><b>Relicense</b> — license derivative works in any manner</p1><br>
-<p1 style="margin-left: 24pt;"><b>Profit</b> — you may use this project for any use (including commercial use)</p1><br>
+<b>Share</b> — copy and redistribute the project in any medium or format</p1><br>
+<b>Adapt</b> — remix, transform, and build upon the project</p1><br>
+<b>Relicense</b> — license derivative works in any manner</p1><br>
+<b>Profit</b> — you may use this project for any use (including commercial use)</p1><br>
 
 I will not revoke these freedoms as long as you follow the license terms.
 
 **Under the following terms:**
 
-<p1 style="margin-left: 24pt;"><b>Attribution</b> — you must give appropriate credit (you may do so in any reasonable manner, but not in a way that suggests that I endorse you or your use)</p1><br>
-<p1 style="margin-left: 24pt;"><b>Modify</b> — any personal information included in the project as-is must be removed before redistribution of this project or any derivative works.</p1><br>
+<b>Attribution</b> — you must give appropriate credit (you may do so in any reasonable manner, but not in a way that suggests that I endorse you or your use)</p1><br>
+<b>Modify</b> — any personal information included in the project as-is must be removed before redistribution of this project or any derivative works.</p1><br>
 
 *Do keep in mind that my license does not override the licenses of other projects and works used in this project.*
 
