@@ -27,26 +27,21 @@
 
 #### Requirements
 
-A full TeX distribution is assumed.  [Various distributions for different operating systems (Windows, Mac, \*nix) are available](http://tex.stackexchange.com/q/55437) but TeX Live is recommended.
-You can [install TeX from upstream](https://tex.stackexchange.com/q/1092) (recommended; most up-to-date) or use `sudo apt-get install texlive-full` if you really want that.  (It's generally a few years behind.)
+You will need a full TeX distribution. There are [various distributions for different operating systems (Windows, Mac, \*nix, <i>etc</i>.) are available](http://tex.stackexchange.com/q/55437), but [TeX Live](https://www.tug.org/texlive/) is recommended by posquit0 (who made Awesome CV) and is what I am using as well.
 
-If you don't want to install the dependencies on your system, this can also be obtained via [Docker](https://docker.com).
+In addition to TeX Live, you will also need [MiKTeX](https://miktex.org/download) (or some other way to acquire the numerous required packages and dependencies), a Perl distribution (I use [Strawberry Perl](https://strawberryperl.com/)), and a source-code editor of your choice (I use and recommend [VS Code](https://code.visualstudio.com/), with which you will also want to get [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)).
+
+If all of this sounds intimidating, then you can try [Overleaf](https://www.overleaf), which is a web-based editor. This project originally started on Overleaf, using [this template](https://www.overleaf.com/latex/templates/awesome-cv/dfnvtnhzhhbm) from Awesome CV's github. However, I started having issues when trying to add extra packages (which shouldn't be an issue, but was for me for some reason) and experimenting with integrating LUA for a couple ideas. Ultimately, I'm thankful that I made the switch to VS Code, because it was faster (and it also compelled me to learn github when the entire project was somehow deleted from my hard drive).
 
 #### Usage
 
-At a command prompt, run
+Download the [latest release from the github](https://github.com/johnathangallagher/resume/releases), move the folder from your Downloads folder to a location of your choice, and open the project in the source-code editor of your choice. (or use Overleaf as mentioned above, however you'd have to figure out the upload process yourself)
 
-```bash
-xelatex {your-cv}.tex
-```
+If you're using a source-code editor, to get the changes to actually show up in your .pdf file you will need to *compile* the project. In VS Code, this can be done three ways:
 
-Or using docker:
-
-```bash
-docker run --rm --user $(id -u):$(id -g) -i -w "/doc" -v "$PWD":/doc thomasweise/texlive make
-```
-
-In either case, this should result in the creation of ``{your-cv}.pdf``
+<p1 style="margin-left: 24pt;"><b>(1)</b> automatically you save the .tex file, <br>
+<p1 style="margin-left: 24pt;"><b>(2)</b> clicking the green play button in the top right corner of the editor panel, and <br>
+<p1 style="margin-left: 24pt;"><b>(3)</b> using the key bind ```Ctrl + Alt + B```.
 
 
 ## Acknowledgements & Credit
