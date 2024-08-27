@@ -11,6 +11,7 @@
   <a href="https://github.com/johnathangallagher/resume/actions/workflows/main.yml">
     <img alt="GitHub Actions" src="https://github.com/johnathangallagher/resume/actions/workflows/main.yml/badge.svg"/>
   </a>
+  <span style="margin: 0 5px 0 0;"> </span>
   <a href="https://github.com/johnathangallagher/resume/master/examples/resume.pdf">
     <img alt="Example Resume" src="https://img.shields.io/badge/resume-pdf-007318.svg"/>
   </a>
