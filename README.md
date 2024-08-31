@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <i>Yet Another Repeatedly Replicated Resume Reference Repository!</i><br>
+  <i>Yet Another Repeatedly Replicated Resume Reference Repository!</i><br><br>
   A fork of <b><a href="https://github.com/posquit0/Awesome-CV">Awesome CV</a></b>, the outstanding LaTeX template for your job application.
 </p>
 
@@ -11,12 +11,10 @@
   <a href="https://github.com/johnathangallagher/resume/actions/workflows/main.yml">
     <img alt="GitHub Actions" src="https://github.com/johnathangallagher/resume/actions/workflows/main.yml/badge.svg"/>
   </a>
-  <span style="margin: 0 10px 0 0;"> </span>
   <a href="https://github.com/johnathangallagher/resume/master/examples/resume.pdf">
     <img alt="Example Resume" src="https://img.shields.io/badge/resume-pdf-007318.svg"/>
   </a>
 </div>
-<br>
 
 ## What is YARRRRR?
 
@@ -27,7 +25,7 @@ It will (hopefully) be *somewhat* easy to customize a beautiful resume of your o
 
 ## Features
 
-* **Trusted Format**: Follows the layout (and advice) of the <a href="https://www.reddit.com/r/jobs/comments/7y8k6p/im_an_exrecruiter_for_some_of_the_top_companies/">reddit-famous resume template</a> by <a href="https://www.linkedin.com/in/colindmcintosh/">Colin McIntosh</a> (AKA <a href="https://www.reddit.com/user/SheetsGiggles/">/u/SheetsGiggles</a>).
+* **Proven Format**: Follows the layout (and advice) of the <a href="https://www.reddit.com/r/jobs/comments/7y8k6p/im_an_exrecruiter_for_some_of_the_top_companies/">reddit-famous resume template</a> by <a href="https://www.linkedin.com/in/colindmcintosh/">Colin McIntosh</a> (AKA <a href="https://www.reddit.com/user/SheetsGiggles/">/u/SheetsGiggles</a>).
 * **Unparsable Phone Number**: your phone number on the resume gets scrambled when people try to copy-and-paste it, making it more difficult for scammers and web scrapers from automatically getting your phone number. (ATS scanners will almost always never be able to parse your number as a trade-off however)
 * **Focused Design**: The CV and Cover Letter are removed, and focus is on the Resume (their files are still in the repo) to make the best first impression on a human: just a touch of color, a sleek font (Inter), and neurotic typesetting.
 * **ATS Friendly**: Beside your phone number, the entire resume will be easily parsed by most ATS systems, helping you fill out more applications faster.
