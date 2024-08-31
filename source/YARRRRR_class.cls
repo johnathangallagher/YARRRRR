@@ -14,8 +14,7 @@
 %
 % Notes:
 % 1) This class file defines the visual layout of the template file (curriculum_vitae.tex, resume.tex).
-% 2) It has been written in such a way that you will be able to edit it easily, any custom commands
-% have been made into a 'package' in YARRRRR_cargo.sty
+% 2) It has been written in such a way that you will be able to edit it easily, any custom commands have been made into a 'package' in YARRRRR_cargo.sty
 %
 % Class license:
 % https://github.com/johnathangallagher/YARRRRR/blob/main/LICENSE
@@ -31,9 +30,7 @@
 %-------------------------------------------------------------------------------
 %                Class options
 %
-% (need to be done before the external package loading, for example because
-% we need \paperwidth, \paperheight and \@ptsize to be defined before loading
-% geometry and fancyhdr)
+% (need to be done before the external package loading, for example because we need \paperwidth, \paperheight and \@ptsize to be defined before loading geometry and fancyhdr)
 %-------------------------------------------------------------------------------
 % Options for draft or final
 \DeclareOption{draft}{\setlength\overfullrule{5pt}}
@@ -48,7 +45,7 @@
 
 
 %-------------------------------------------------------------------------------
-%                3rd party packages
+%                Required packages
 %-------------------------------------------------------------------------------
 % Needed to load required commands
 \RequirePackage{YARRRRR-cargo}
