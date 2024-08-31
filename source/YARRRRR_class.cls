@@ -50,6 +50,8 @@
 %-------------------------------------------------------------------------------
 %                3rd party packages
 %-------------------------------------------------------------------------------
+% Needed to load required commands
+\RequirePackage{YARRRRR-cargo}
 % Needed to make fixed length table
 \RequirePackage{array}
 % Needed to handle list environment
@@ -80,8 +82,6 @@
 \RequirePackage{unicode-math}
 % Needed to use icons from font-awesome
 \RequirePackage{fontawesome5}
-\RequirePackage{roboto}
-\RequirePackage[default,opentype]{sourcesanspro}
 % Needed for the photo ID
 \RequirePackage[skins]{tcolorbox}
 % Needed to deal a paragraphs
@@ -161,15 +161,6 @@
   \ifbool{acvSectionColorHighlight}{{\color{ensign}#1#2#3}}{#1#2#3}%
 }
 
-
-%-------------------------------------------------------------------------------
-%                Configuration for fonts
-%-------------------------------------------------------------------------------
-\newcommand*{\headerfont}{\roboto}
-\newcommand*{\headerfontlight}{\robotolight}
-\newcommand*{\footerfont}{\sourcesanspro}
-\newcommand*{\bodyfont}{\sourcesanspro}
-\newcommand*{\bodyfontlight}{\sourcesansprolight}
 
 %-------------------------------------------------------------------------------
 %                Configuration for styles
