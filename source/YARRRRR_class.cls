@@ -48,7 +48,7 @@
 %                Required packages
 %-------------------------------------------------------------------------------
 % Needed to load required commands
-\RequirePackage{YARRRRR-cargo}
+\RequirePackage{YARRRRR_cargo}
 % Needed to make fixed length table
 \RequirePackage{array}
 % Needed to handle list environment
